@@ -49,7 +49,8 @@ class CalculatorUtilsSpyTests {
         val operation = "4.5x2."
         val operator = "x"
         var isCorrect = false
-        
+
+
         calculatorUtils.addPoint(operation){
             isCorrect = true
         }
